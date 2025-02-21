@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import { useState } from 'react';
+import NPCSeal from "../components/NPCSeal";
 
 const PrivacyPolicy = () => {
     return (
@@ -9,7 +10,7 @@ const PrivacyPolicy = () => {
             <title>CAZA | Privacy Policy</title>
         </Helmet>
         
-        <main className="md:p-24 p-8 bg-gray-100 list-outside text-justify">   
+        <main className="md:p-24 p-8 bg-white list-outside text-justify">   
             <h1 className="md:text-4xl text-2xl text-sky-950 font-bold">Privacy Policy</h1>
 
             <hr className="h-px md:my-8 my-3 bg-gray-200 border-0 dark:bg-sky-500"></hr>
@@ -379,9 +380,8 @@ const PrivacyPolicy = () => {
                 <li>Or by sending an email to <u className="text-sky-600"><b className="text-sky-600 ">dataprivacy@cazatechnology.com</b></u></li>  
             </ul>
             
-            <div className="flex justify-center items-center">
-                <img className="justify-center md:w-1/2 w-auto" alt="npc-seal" src="./images/npc-seal.png" />
-            </div>
+            {/* NPC Seal to be updated */}
+            <NPCSeal />
 
             <h2 className="md:mt-14 mt-8 md:text-3xl text-xl text-sky-950 font-semibold upper-roman">Effectivity</h2>
             <hr className="md:w-16 w-10 h-1 my-1 bg-gray-100 border-0 rounded md:my-1 dark:bg-sky-500"></hr>
