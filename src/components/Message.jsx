@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSquareFacebook, FaSquareTwitter, FaSquareGooglePlus } from "react-icons/fa6";
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 const Message = () => {
     const [formData, setFormData] = useState({
@@ -21,13 +21,14 @@ const Message = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         
-        emailjs.send('service_rkfj0rr', 'template_yw3bi8p', formData, 'Rinm4lief6ifbvsZ0')
-            .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
-                setFormData({ name: '', email: '', subject: '', message: '' });
-            }, (error) => {
-                console.log('FAILED...', error);    
-            });
+        // emailjs.send('service_rkfj0rr', 'template_yw3bi8p', formData, 'Rinm4lief6ifbvsZ0')
+        //     .then((response) => {
+        //         console.log('SUCCESS!', response.status, response.text);
+        //         setFormData({ name: '', email: '', subject: '', message: '' });
+        //     }, (error) => {
+        //         console.log('FAILED...', error);    
+        //     });
+        console.log('Not working email yet')
     };
 
     return (
