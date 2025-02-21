@@ -79,7 +79,7 @@ const Footer = () => {
 
             <div className="md:p-3 p-5 flex flex-col md:flex-row justify-around items-center gap-5">
                 <div>
-                    <p className="text-gray-100 md:text-sm text-xs text-center md:text-start font-light">Copyright &copy; 2024 All Rights Reserved | CAZA Technology Solutions Inc.</p>
+                    <p className="text-gray-100 md:text-sm text-xs text-center md:text-start font-light">Copyright &copy; 2025 All Rights Reserved | CAZA Technology Solutions Inc.</p>
                 </div>
                 <div className="text-gray-100 md:text-sm text-xs flex items-end gap-2">
                     <Link to="/privacy-policy"><p className="cursor-pointer font-light">Privacy Policy</p></Link>
