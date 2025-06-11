@@ -37,7 +37,15 @@ const Customize = () => {
                 <div className="flex justify-center">
                     <div className="md:w-1/2 self-center">
                         <h1 className="md:text-4xl text-xl text-gray-700 text-center font-semibold">We customize our services to meet your requirements</h1>
-                        <p className="text-center text-gray-700 md:mt-4 mt-2 md:text-base text-xs">Onsite and offsite implementation, development, and support services ensuring HIGH quality and cost-effective solutions. We also offer staff augmentation.</p>
+                        {/* Version 1 */}
+                        {/* <p className="text-center text-gray-700 md:mt-4 mt-2 md:text-base text-xs">Onsite and offsite implementation, development, and support services ensuring HIGH quality and cost-effective solutions. We also offer staff augmentation.</p> */}
+                    
+                        {/* Version 2 */}
+                        <p className="text-center text-gray-700 md:mt-4 mt-2 md:text-base text-xs">
+                            We provide both onsite and offsite implementation, development, and support services delivering high-quality, cost-effective solutions tailored to your needs. Additionally, we offer
+                            staff augmentation to help you scale your team with experienced professionals.
+                        </p>
+                        {/* Version 2 */}
                     </div>
                 </div>
 

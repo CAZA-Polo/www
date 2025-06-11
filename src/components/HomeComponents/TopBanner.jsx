@@ -35,21 +35,60 @@ const TopBanner = () => {
         <div className="flex md:flex-row flex-col container mx-auto">
             <div className="flex flex-col justify-center gap-7 p-8 text-gray-700 md:w-1/2">
                 <motion.h1
-                ref={ref}
-                variants={titleVariant}
-                initial="initial"
-                animate={controls} 
-                className="font-semibold text-left md:text-5xl text-2xl">Welcome to CAZA Technology Solutions Inc.</motion.h1>
-                <motion.p
-                ref={descRef} 
-                variants={descVariant}
-                initial="initial"
-                animate={descControl} 
-                className="text-left md:text-sm text-xs">We help you to ensure successful implementation of your T24 core banking solution. We customize our services based on
-                your requirements. We listen to your specific needs and delivery quality that meet your criteria, expectation, budget, and deadline.
-                We help to keep you focused ensuring T24 best practices are aligned to your business needs. We invite you to contact us to see how 
-                our services can benefit your organization.
-                </motion.p>
+                    ref={ref}
+                    variants={titleVariant}
+                    initial="initial"
+                    animate={controls} 
+                    className="font-semibold text-left md:text-5xl text-2xl">Welcome to CAZA Technology Solutions Inc.</motion.h1>
+                
+                {/* Version 1 */}
+                {/* <motion.p
+                    ref={descRef} 
+                    variants={descVariant}
+                    initial="initial"
+                    animate={descControl} 
+                    className="text-left md:text-sm text-xs">
+                        We help you to ensure successful implementation of your T24 core banking solution. We customize our services based on
+                        your requirements. We listen to your specific needs and delivery quality that meet your criteria, expectation, budget, and deadline.
+                        We help to keep you focused ensuring T24 best practices are aligned to your business needs. We invite you to contact us to see how 
+                        our services can benefit your organization.
+                </motion.p> */}
+
+                {/* Version 2 */}
+                <div className="flex flex-col gap-3">
+                    <motion.p
+                    ref={descRef} 
+                    variants={descVariant}
+                    initial="initial"
+                    animate={descControl} 
+                    className="text-left md:text-sm text-xs">
+                        We are committed to ensuring the successful implementation of your T24 core banking
+                        solution. Our services are tailored to meet your unique requirements - we take the
+                        time to understand your specific needs and deliver high-quality solutions that align with
+                        your expectations, budget, and timeline.
+                    </motion.p>
+
+                    <motion.p
+                        ref={descRef} 
+                        variants={descVariant}
+                        initial="initial"
+                        animate={descControl} 
+                        className="text-left md:text-sm text-xs">
+                            By keeping you focused on your goals, we help ensure that T24 best practices are
+                            effectively aligned with your business objectives.
+                    </motion.p>
+
+                    <motion.p
+                        ref={descRef} 
+                        variants={descVariant}
+                        initial="initial"
+                        animate={descControl} 
+                        className="text-left md:text-sm text-xs">
+                            We invite you to get in touch with us to explore how our expertise can add value to your
+                            organization.
+                    </motion.p>
+                </div>
+                {/* Version 2 */}
 
                 <motion.div
                 ref={descRef}  
