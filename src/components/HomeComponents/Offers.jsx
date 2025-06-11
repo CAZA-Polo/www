@@ -36,7 +36,7 @@ const Offers = () => {
             // Version 2
             description: (
                 <>
-                    We provide <strong>highly skilled, well-trained, and experienced T24 consultants</strong> to support the day-to-day IT operational needs of our clients, ensuring reliable and efficient system performance,
+                    We provide <strong>highly skilled, well-trained, and experienced T24 consultants</strong> to support the day-to-day IT operational needs of our clients, ensuring reliable and efficient system performance
                 </>
             ),
             bgImage: './images/offers/office-workers-banner.jpg'
@@ -48,7 +48,7 @@ const Offers = () => {
             // description: 'T24 onsite implementation, development, and support ensuring quality and on-time delivery of projects',
 
             // Version 2
-            description: 'Led the onsite implementation, development, and support of T24, ensuring high-quality outcomes and timely project delivery.',
+            description: 'Lead the onsite implementation, development, and support of T24, ensuring high-quality outcomes and timely project delivery.',
             bgImage: './images/offers/maintenance_man.jpg'
         },
         {
@@ -78,7 +78,7 @@ const Offers = () => {
             // description: 'Provide customer with a customized T24 technical training to build a strong and more engaged workforce during and post implementation',
             
             // Version 2
-            description: 'Delivers customized T24 technical training programs to empower clients with a skilled and engaged workforce supporting both implementatno and post-deployment phases',
+            description: 'Delivers customized T24 technical training programs to empower clients with a skilled and engaged workforce supporting both implementation and post-deployment phases',
             bgImage: './images/offers/ejkoobxlfcys9tqxpvf4.jpg'
         }
 
@@ -132,7 +132,7 @@ const Offers = () => {
                         <div className="p-3 flex flex-col justify-between h-full">
                             <div>
                                 <h2 className="font-semibold md:text-lg text-sm">{offer.title}</h2>
-                                <p className="md:text-sm text-xs text-justify">{offer.description}</p>
+                                <p className="md:text-sm text-xs text-justify hyphens-auto">{offer.description}</p>
                             </div>
 
                             <Link className="mt-3 md:text-sm text-xs text-blue-500 flex items-center gap-1 hover:underline transition font-semibold" to="/services"><IoIosArrowDropright />Learn more</Link>
@@ -150,7 +150,7 @@ const Offers = () => {
                         <div className="p-3 flex flex-col justify-between h-full">
                             <div>
                                 <h2 className="font-semibold md:text-lg text-sm text-start">{offer.title}</h2>
-                                <p className="md:text-sm text-xs text-justify">{offer.description}</p>
+                                <p className="md:text-sm text-xs text-justify hyphens-auto">{offer.description}</p>
                             </div>
 
                             <Link className="mt-3 md:text-sm text-xs text-blue-500 flex items-center gap-1 hover:underline transition font-semibold" to="/services"><IoIosArrowDropright />Learn more</Link>

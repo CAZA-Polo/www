@@ -12,7 +12,7 @@ const Solutions = () => {
             // Version 2
             description: (
                 <>
-                    We provide <strong>highly skilled, well-trained, and experienced T24 consultants</strong> to support the day-to-day IT operational needs of our clients, ensuring reliable and efficient system performance,
+                    We provide <strong>highly skilled, well-trained, and experienced T24 consultants</strong> to support the day-to-day IT operational needs of our clients, ensuring reliable and efficient system performance
                 </>
             ),
             bgColor: 'bg-sky-300'
@@ -24,7 +24,7 @@ const Solutions = () => {
             // description: 'T24 onsite implementation, development, and support ensuring quality and on-time delivery of projects',
 
             // Version 2
-            description: 'Led the onsite implementation, development, and support of T24, ensuring high-quality outcomes and timely project delivery.',
+            description: 'Lead the onsite implementation, development, and support of T24, ensuring high-quality outcomes and timely project delivery.',
             bgColor: 'bg-sky-500'
         },
         {
@@ -54,7 +54,7 @@ const Solutions = () => {
             // description: 'Provide customer with a customized T24 technical training to build a strong and more engaged workforce during and post implementation',
             
             // Version 2
-            description: 'Delivers customized T24 technical training programs to empower clients with a skilled and engaged workforce supporting both implementatno and post-deployment phases',
+            description: 'Delivers customized T24 technical training programs to empower clients with a skilled and engaged workforce supporting both implementation and post-deployment phases',
             bgColor: 'bg-sky-300'
         },
     ]);

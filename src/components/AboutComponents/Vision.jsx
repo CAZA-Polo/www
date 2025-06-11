@@ -12,7 +12,7 @@ const Vision = () => {
                     {/* Version 2 */}
                     <p className="md:text-sm text-xs mt-2 text-justify text-gray-700">
                         Our vision is to be the premier provider of IT consultancy, services, and solutions for banking
-                        and financial institutions-not only in the Philippines but across Asia Pacific and globally. We are
+                        and financial institutions - not only in the Philippines but across Asia Pacific and globally. We are
                         committed to delivering high-quality, cost-effective solutions that meet the evolving needs of
                         our clients.
                     </p>
