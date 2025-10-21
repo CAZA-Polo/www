@@ -12,7 +12,7 @@ const Banner = () => {
                 initial={{opacity:0, y:20}}
                 animate={{opacity:1,y:0}} 
                 transition={{duration:0.5}}
-                className="text-lg">We're still customizing our product page. Thank you for being patiently.</motion.p>                        
+                className="text-lg">We're still customizing our product page. Thank you for being patient.</motion.p>                        
             </div>
         </section>
     )
