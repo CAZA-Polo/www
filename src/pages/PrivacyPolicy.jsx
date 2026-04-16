@@ -383,7 +383,7 @@ const PrivacyPolicy = () => {
             {/* NPC Seal to be updated */}
             <NPCSeal />
 
-            <h2 className="md:mt-14 mt-8 md:text-3xl text-xl text-sky-950 font-semibold upper-roman">Effectivity</h2>
+           <h2 className="md:text-3xl text-xl text-sky-950 font-semibold upper-roman">Effectivity</h2>
             <hr className="md:w-16 w-10 h-1 my-1 bg-gray-100 border-0 rounded md:my-1 dark:bg-sky-500"></hr>
 
             <ul className="md:text-lg text-sm text-sky-950 font-bold md:mt-8 mt-6 space-y-5 list-inside">
@@ -391,19 +391,6 @@ const PrivacyPolicy = () => {
                 amended by this company.</li>
             </ul>
 
-            <h2 className="md:mt-14 mt-8 md:text-3xl text-xl text-sky-950 font-semibold upper-roman">Annexes</h2>
-            <hr className="md:w-16 w-10 h-1 my-1 bg-gray-100 border-0 rounded md:my-1 dark:bg-sky-500"></hr>
-            
-            <ul className="md:text-lg text-sm text-sky-950 font-bold mt-5 space-y-5 list-none list-outside">
-                <li className="indent-10">Attached to this Privacy Manual are the following: </li>
-            </ul>
-
-            <ul className="md:text-lg text-sm text-sky-950 font-bold md:mt-8 mt-6 space-y-0 list-decimal list-outside ml-10">
-                <li>Consent Form</li>
-                <li>Inquiry Form</li>
-                <li>Access Request Form</li>
-                <li>Request for Correction, Amendment or Erasure Form</li>
-            </ul>
         </main>
 
         <Footer />

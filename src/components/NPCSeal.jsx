@@ -1,7 +1,7 @@
 const NPCSeal = () => {
 
     // Change image of NPC logo depending on the name of the logo uploaded to ./images/dpo folder
-    const npcLogo = 'npc-2025.png'
+    const npcLogo = 'CORSeal2026.png'
 
     return (
         <div className="flex justify-center items-center">
